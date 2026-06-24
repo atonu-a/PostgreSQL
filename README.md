@@ -47,3 +47,32 @@ CREATE DATABASE TestingDB;
 ```bash
 psql -U postgres -h localhost
 ```
+
+## List down existing databased
+```sql
+SELECT datname FROM pg_database;
+```
+or
+```bash
+\l
+```
+
+## Change a database
+```bash
+\c testingdb
+```
+
+## Delete a database
+```sql
+DROP database db_name;
+```
+
+
+## CRUD operation
+-> CREATE
+-> READ
+-> UPDATE
+-> DELETE
+
+## Table
+A table is a collection of related data held in a table format within a database.
