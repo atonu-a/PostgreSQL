@@ -76,3 +76,23 @@ DROP database db_name;
 
 ## Table
 A table is a collection of related data held in a table format within a database.
+
+## Creating a table
+```SQL
+CREATE TABLE person ( id INT, name VARCHAR(100), city VARCHAR(100));
+```
+For viewing table:
+```bash
+\d person
+``` 
+
+## Adding data into a Table
+```SQL
+INSERT INTO person(id, name, city)
+VALUES (101, 'Atonu', 'Jashore');
+```
+or 
+```SQL
+INSERT INTO person
+VALUES (102, 'Likhon', 'Jashore');
+```
