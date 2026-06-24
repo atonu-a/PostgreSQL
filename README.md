@@ -96,3 +96,13 @@ or
 INSERT INTO person
 VALUES (102, 'Likhon', 'Jashore');
 ```
+
+## Reading data from a table
+To show all columns:
+```SQL
+SELECT * FROM person;
+```
+To show one or more specific column(s):
+```SQL
+SELECT name FROM person;
+```
