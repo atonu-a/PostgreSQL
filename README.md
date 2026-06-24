@@ -106,3 +106,16 @@ To show one or more specific column(s):
 ```SQL
 SELECT name FROM person;
 ```
+
+## Updating data from a table
+```SQL 
+UPDATE person
+    SET city="Dhaka"
+    WHERE id = 2;
+```
+
+## Delete data from a table
+```SQL 
+DELETE FROM person
+    WHERE name = 'Atonu';
+```
