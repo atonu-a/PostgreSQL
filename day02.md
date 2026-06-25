@@ -1,4 +1,4 @@
-# Datatypes
+```# Datatypes
 An attribute that specifies the type of data in a column of our database - table.
 
 ### Most widely used are:
@@ -31,5 +31,4 @@ CREATE TABLE employees (
     firstname VARCHAR(50),
     lastname VARCHAR(50)
 );
-
-# Constraints
+```
